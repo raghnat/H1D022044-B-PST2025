@@ -1,12 +1,10 @@
 #include <Arduino.h>
 
-// put function declarations here:
+//Variabel
 int trigPin = D0;
 int echoPin = D1;
 
 int led1 = D2;
-
-
 
 long duration;
 long distance;
@@ -24,11 +22,6 @@ void loop() {
   digitalWrite(trigPin,HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin,LOW);
-
-  // test
-  // digitalWrite(led1,HIGH);
-  // delay(500);
-  // digitalWrite(led1,LOW);
 
   duration= pulseIn(echoPin,HIGH);
   distance= 0.034 * duration / 2;
