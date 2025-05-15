@@ -1,0 +1,15 @@
+Servo 
+
+GND = GND
+VCC = 3V3
+Signal = D3
+
+Sensor Ultrasonic
+GND = GND
+VCC = 3V3
+trigpin = D1
+echopin = D2
+
+Lampu
+LED hijau = D0
+LED merah = D4

@@ -11,9 +11,9 @@ void setup() {
   lcd.init();
   lcd.backlight();
   lcd.setCursor(0,0);
-  lcd.print("mul mul mul yo");
+  lcd.print("Sulawesi");
   lcd.setCursor(0,1);
-  lcd.print("so lo lo lo lo");
+  lcd.print("Utara");
 }
 
 void loop() {
